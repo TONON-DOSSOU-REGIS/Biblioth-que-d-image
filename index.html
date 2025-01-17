@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- https://www.codingnepalweb.com/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery with JavaScript | codingNapal</title>
+    <!-- iconscout Link for Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">    <!-- JavaScript -->
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="lightbox">
+        <div class="wrapper">
+            <header>
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span></span>
+                </div>
+                <div class="buttons">
+                    <i class="uil uil-import"></i>
+                    <i class="uil uil-times"></i>
+                </div>
+            </header>
+            <div class="preview-img">
+                <div class="img"><img src="" alt="preview-img"></div>
+            </div>
+        </div>
+    </div>
+    <section class="search">
+        <img src="images/image-16.jpg" alt="search-img">
+        <div class="content">
+            <h1>Ma bibliothèque de DOSSOU</h1>
+            <p>Recherche et télécharge les images en quelque seconde</p>
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Rechercher des images">
+            </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+    <section class="gallery">
+        <ul class="images"></ul>
+        <button class="load-more">Charger plus</button>
+    </section>
+</body>
+</html>
